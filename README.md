@@ -49,13 +49,15 @@ pip install -r requirements.txt
 Create a `.env` file and add database credentials:
 
 ```
-DATABASE_URL=sqlite:///./test.db
+DATABASE_URL=sqlite:///./database.db
+TEST_DATABASE_URL=sqlite:///./test_database.db
 ```
 
 For PostgreSQL:
 
 ```
 DATABASE_URL=postgresql://user:password@localhost/ecommerce_db
+TEST_DATABASE_URL=postgresql://user:password@localhost/test_ecommerce_db
 ```
 
 ---
