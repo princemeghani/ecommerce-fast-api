@@ -1,0 +1,29 @@
+# Byte-compiled / intermediate files
+**/__pycache__/
+.pytest_cache
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+
+# .env files
+.env
+
+# IDE files
+.DS_Store
+.vscode/
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# SQLite database
+*.sqlite3
+*.db
+
+# Coverage
+htmlcov/
+.coverage
